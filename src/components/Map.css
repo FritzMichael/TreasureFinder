@@ -1,0 +1,33 @@
+.MapView {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+  }
+
+.Tile {
+    display: flex;
+    width: 6vh;
+    height: 6vh;
+    background-color: #757575;
+    font-size:5vh;
+    align-items: center;
+    justify-content: center;
+    margin: .1vh;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .Table {
+    table-layout: fixed;
+  }
+
+  .Selector{
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: start;
+    margin: 10vw 2vw 0px 0px;
+  }
